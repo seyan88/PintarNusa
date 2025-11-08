@@ -4,7 +4,11 @@ class IllustrationCard extends StatelessWidget {
   final Color color;
   final IconData icon;
 
-  const IllustrationCard({super.key, required this.color, required this.icon});
+  const IllustrationCard({
+    Key? key,
+    required this.color,
+    required this.icon,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +17,9 @@ class IllustrationCard extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(16),
       ),
-      child: Center(child: Icon(icon, size: 48, color: Colors.white)),
+      child: Center(
+        child: Icon(icon, size: 48, color: Colors.white),
+      ),
     );
   }
 }

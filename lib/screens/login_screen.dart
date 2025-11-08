@@ -28,7 +28,7 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 24),
               // App Name
               const Text(
-                'PinterNusa',
+                'PintarNusa hhgjhhjhj',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -37,7 +37,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               const Text(
-                'user',
+                'user (Name)',
                 style: TextStyle(fontSize: 16, color: Colors.grey),
               ),
               const Spacer(),

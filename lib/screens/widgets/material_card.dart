@@ -7,12 +7,12 @@ class MaterialCard extends StatelessWidget {
   final VoidCallback onTap;
 
   const MaterialCard({
-    super.key,
+    Key? key,
     required this.title,
     required this.subtitle,
     required this.color,
     required this.onTap,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +38,10 @@ class MaterialCard extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               subtitle,
-              style: const TextStyle(color: Colors.white, fontSize: 14),
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+              ),
             ),
           ],
         ),

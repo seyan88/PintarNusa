@@ -15,4 +15,9 @@
       "editor.wordBasedSuggestions": "off",
       "editor.defaultFormatter": "Dart-Code.dart-code"
   },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "dart.hotReloadOnSave": "all",
+  "dart.previewHotReloadOnSaveWatcher": false,
+  "dart.flutterHotReloadOnSave": "all",
 }
